@@ -1,6 +1,6 @@
 # docker
 
-This is a Docker image for testing FastApi "app.py" a web application built with Python.
+This is a Docker image for testing FastApi,Selenium "app.py, selenium_test.py" a web application built with Python.
 
 ## Usage
 
