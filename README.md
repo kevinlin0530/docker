@@ -1,6 +1,6 @@
 # docker
 
-This is a Docker image for running "My App," a web application built with Python.
+This is a Docker image for testing FastApi "app.py" a web application built with Python.
 
 ## Usage
 
