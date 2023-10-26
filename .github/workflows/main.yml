@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update gist
-        uses: keinlin0530/docker/selenium_test@main
+        uses: kevinlin0530/docker/selenium_test@main
         # env:
         #   GH_PAT: ${{ secrets.GH_PAT }}
         #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
