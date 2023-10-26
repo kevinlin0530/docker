@@ -26,4 +26,4 @@ jobs:
     - name: Run Selenium Script  
       run: |
         python selenium_test.py
-      working-directory: kevinlin0530/docker 
+      working-directory: ./kevinlin0530/docker 
