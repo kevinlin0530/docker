@@ -1,9 +1,0 @@
-name: "docker"
-author: "kevinlin"
-description: "selenium test"
-branding:
-  icon: "activity"
-  color: "green"
-runs:
-  using: "node12"
-  main: "selenium_test.py"
