@@ -21,9 +21,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-      working-directory: kevinlin0530/docker
+      working-directory: .
 
     - name: Run Selenium Script  
       run: |
         python selenium_test.py
-      working-directory: ./kevinlin0530/docker 
+      working-directory: .
