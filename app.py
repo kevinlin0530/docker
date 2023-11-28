@@ -5,12 +5,6 @@ import requests as req
 import mysql.connector
 import uvicorn
 
-app = FastAPI() # 建立一個 Fast API application
-
-@app.get("/test_url") # 指定 api 路徑 (get方法)
-def read_root():
-    return {"Hello": "World"}
-
 def get_sql_connect():
     conn = mysql.connector.connect(
         host='35.201.205.128',
@@ -60,6 +54,12 @@ def getData(url):
     nextLink=root.find("a", string="‹ 上頁")
     conn.close()
     return nextLink["href"]
+
+app = FastAPI() # 建立一個 Fast API application
+
+@app.get("/test_url") # 指定 api 路徑 (get方法)
+def read_root():
+    return {"Hello": "World"}
 
 @app.get("/webscrap")
 def webscrping():
